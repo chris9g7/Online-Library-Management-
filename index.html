@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- this style tag consist home page style -->
+
+    <style>
+        form {
+            text-align: center;
+            margin: 2rem;
+
+        }
+
+        form input,
+        label {
+            margin: 0.5rem;
+            border-radius: 5px;
+            font-size: 2rem;
+
+        }
+
+        input:last-child {
+            font-size: 2.5rem;
+            background-color: darkcyan;
+            padding: 5px;
+            color: #fff;
+            cursor: pointer;
+            margin-left: 12rem;
+            margin-top: 1.5rem;
+            border-radius: 15px;
+            box-shadow: 1px 1px 5px;
+            border-color: #a89b9b;
+
+
+        }
+
+        input:last-child:hover {
+            background-color: #0d3dad;
+            transition: transform 0.3s ease-out;
+            transform: translateY(-5px);
+        }
+
+        label {
+            font-weight: 900;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <div class="container">
+
+        <div class="header flex">
+
+            <img src="https://th.bing.com/th?id=OIP.joxi6PiDBCI997TM3ouACQHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                alt="online library pic">
+            <h1>ONLiNE LiBRARY MANAGEMENT</h1>
+            <i class="fa-sharp fa-solid fa-book"></i>
+
+        </div>
+
+        <div class="content flex">
+
+            <div class="sideNav">
+                <ul>
+                    <li> <a href="#home">Home</a> </li>
+                    <li><a href="Member_list.html">Member List</a></li>
+                    <li> <a href="Registration_list.html">Registration Form</a> </li>
+                    <li> <a href="Feedback_list.html"> Feedback</a></li>
+                </ul>
+            </div>
+
+            <div class="mainContent" id="home">
+                <h2>Online Library Management</h2>
+                <img src="images/library.jpg" alt="booksimages">
+                <p>
+
+                    <q style="color: rgb(181, 174, 174);"> Books are the plane, and the train, and the road. They are
+                        the destination and the journey. They are
+                        home.</q>
+
+                </p>
+
+                <h2 style=" text-decoration-line: none;">Welcome</h2>
+                <p> Welcome to the Online Library Management Portal.</p>
+
+                <form action="#">
+
+                    <label for="userName">User Name</label>
+                    <input type="text" id="userName" placeholder="User Name">
+                    <br>
+                    <label for="Password">Password&nbsp; </label>
+                    <input type="password" id="Password" placeholder="Password">
+                    <br>
+                    <input type="submit">
+
+
+
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <p>
+                Copyright <i class="fa-sharp fa-regular fa-copyright"></i>
+                2023 <i class="fa-sharp fa-solid fa-book"></i> Online Library Management, Inc. All rights reserved
+
+            </p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
